@@ -2,9 +2,6 @@
 > remotion@1.0.0 dev
 > remotion studio  --host 0.0.0.0 --port 3000
 
-Server ready - Local: http://localhost:3000, Network: http://172.17.0.2:3000
-Built in 2110ms
-Building...
-Built in 389ms
-Building...
-Built in 322ms
+
+Error: You specified port 3000 to be used for the HTTP server, but it is not available. Choose a different port or remove the setting to let Remotion automatically select a free port.
+    at Object.getDesiredPort (/home/kavia/workspace/code-generation/remotiontitleanimator-70070-01163bfe/title_animation_frontend_workspace/title_animation_frontend/node_modules/@remotion/renderer/dist/get-port.js:65:15)
